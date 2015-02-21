@@ -14,10 +14,10 @@
 #include <stdint.h>
 
 #ifndef F_CPU
-#define F_CPU 				1000000UL
+#define F_CPU 				4000000UL
 #endif
 
-#define BAUD				4800L
+#define BAUD				1200L
 
 #define UBRR_VALUE ((F_CPU+BAUD*8)/(BAUD*16)-1)
 
